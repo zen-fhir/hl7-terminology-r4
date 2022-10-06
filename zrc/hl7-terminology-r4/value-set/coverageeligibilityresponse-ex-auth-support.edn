@@ -1,0 +1,15 @@
+{ns
+ hl7-terminology-r4.value-set.coverageeligibilityresponse-ex-auth-support,
+ import #{zen.fhir},
+ value-set
+ {:zen/tags #{zen.fhir/value-set},
+  :zen/desc
+  "This value set includes CoverageEligibilityResponse Auth Support codes.",
+  :zen.fhir/version "0.5.22-1",
+  :fhir/code-systems
+  #{{:fhir/url
+     "http://terminology.hl7.org/CodeSystem/coverageeligibilityresponse-ex-auth-support",
+     :zen.fhir/content :bundled}},
+  :uri
+  "http://terminology.hl7.org/ValueSet/coverageeligibilityresponse-ex-auth-support",
+  :version "0.1.0"}}

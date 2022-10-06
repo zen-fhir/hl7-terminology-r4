@@ -1,0 +1,12 @@
+{ns hl7-terminology-r4.value-set.ex-payee-resource-type,
+ import #{zen.fhir},
+ value-set
+ {:zen/tags #{zen.fhir/value-set},
+  :zen/desc "The type of Claim payee Resource.",
+  :zen.fhir/version "0.5.22-1",
+  :fhir/code-systems
+  #{{:fhir/url
+     "http://terminology.hl7.org/CodeSystem/ex-payee-resource-type",
+     :zen.fhir/content :bundled}},
+  :uri "http://terminology.hl7.org/ValueSet/ex-payee-resource-type",
+  :version "0.2.0"}}

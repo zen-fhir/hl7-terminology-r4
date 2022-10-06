@@ -1,0 +1,14 @@
+{ns hl7-terminology-r4.value-set.research-subject-milestone,
+ import #{zen.fhir},
+ value-set
+ {:zen/tags #{zen.fhir/value-set},
+  :zen/desc
+  "Indicates the progression of a study subject through the study milestones.",
+  :zen.fhir/version "0.5.22-1",
+  :fhir/code-systems
+  #{{:fhir/url
+     "http://terminology.hl7.org/CodeSystem/research-subject-milestone",
+     :zen.fhir/content :bundled}},
+  :uri
+  "http://terminology.hl7.org/ValueSet/research-subject-milestone",
+  :version "0.1.0"}}

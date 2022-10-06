@@ -1,0 +1,12 @@
+{ns hl7-terminology-r4.value-set.guide-parameter-code,
+ import #{zen.fhir},
+ value-set
+ {:zen/tags #{zen.fhir/value-set},
+  :zen/desc "Code of parameter that is input to the guide.",
+  :zen.fhir/version "0.5.22-1",
+  :fhir/code-systems
+  #{{:fhir/url
+     "http://terminology.hl7.org/CodeSystem/guide-parameter-code",
+     :zen.fhir/content :bundled}},
+  :uri "http://terminology.hl7.org/ValueSet/guide-parameter-code",
+  :version "0.1.0"}}

@@ -1,0 +1,13 @@
+{ns hl7-terminology-r4.value-set.communication-not-done-reason,
+ import #{zen.fhir},
+ value-set
+ {:zen/tags #{zen.fhir/value-set},
+  :zen/desc "Codes for the reason why a communication did not happen.",
+  :zen.fhir/version "0.5.22-1",
+  :fhir/code-systems
+  #{{:fhir/url
+     "http://terminology.hl7.org/CodeSystem/communication-not-done-reason",
+     :zen.fhir/content :bundled}},
+  :uri
+  "http://terminology.hl7.org/ValueSet/communication-not-done-reason",
+  :version "0.2.0"}}

@@ -1,0 +1,13 @@
+{ns hl7-terminology-r4.value-set.communication-topic,
+ import #{zen.fhir},
+ value-set
+ {:zen/tags #{zen.fhir/value-set},
+  :zen/desc
+  "Codes describing the purpose or content of the communication.",
+  :zen.fhir/version "0.5.22-1",
+  :fhir/code-systems
+  #{{:fhir/url
+     "http://terminology.hl7.org/CodeSystem/communication-topic",
+     :zen.fhir/content :bundled}},
+  :uri "http://terminology.hl7.org/ValueSet/communication-topic",
+  :version "0.1.0"}}

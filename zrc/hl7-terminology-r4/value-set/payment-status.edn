@@ -1,0 +1,12 @@
+{ns hl7-terminology-r4.value-set.payment-status,
+ import #{zen.fhir},
+ value-set
+ {:zen/tags #{zen.fhir/value-set},
+  :zen/desc
+  "This value set includes a sample set of Payment Status codes.",
+  :zen.fhir/version "0.5.22-1",
+  :fhir/code-systems
+  #{{:fhir/url "http://terminology.hl7.org/CodeSystem/paymentstatus",
+     :zen.fhir/content :bundled}},
+  :uri "http://terminology.hl7.org/ValueSet/payment-status",
+  :version "0.3.0"}}

@@ -1,0 +1,12 @@
+{ns hl7-terminology-r4.value-set.v2-0203,
+ import #{zen.fhir},
+ value-set
+ {:zen/tags #{zen.fhir/value-set},
+  :zen/desc
+  "Concepts specifying types of identififiers, as used in person and organization identification datatypes in HL7 Version 2 standards.",
+  :zen.fhir/version "0.5.22-1",
+  :fhir/code-systems
+  #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v2-0203",
+     :zen.fhir/content :bundled}},
+  :uri "http://terminology.hl7.org/ValueSet/v2-0203",
+  :version "2.0.0"}}

@@ -1,0 +1,14 @@
+{ns hl7-terminology-r4.value-set.measure-improvement-notation,
+ import #{zen.fhir},
+ value-set
+ {:zen/tags #{zen.fhir/value-set},
+  :zen/desc
+  "Observation values that indicate what change in a measurement value or score is indicative of an improvement in the measured item or scored issue.",
+  :zen.fhir/version "0.5.22-1",
+  :fhir/code-systems
+  #{{:fhir/url
+     "http://terminology.hl7.org/CodeSystem/measure-improvement-notation",
+     :zen.fhir/content :bundled}},
+  :uri
+  "http://terminology.hl7.org/ValueSet/measure-improvement-notation",
+  :version "0.1.0"}}

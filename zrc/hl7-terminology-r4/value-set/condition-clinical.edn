@@ -1,0 +1,12 @@
+{ns hl7-terminology-r4.value-set.condition-clinical,
+ import #{zen.fhir},
+ value-set
+ {:zen/tags #{zen.fhir/value-set},
+  :zen/desc "Preferred value set for Condition Clinical Status.",
+  :zen.fhir/version "0.5.22-1",
+  :fhir/code-systems
+  #{{:fhir/url
+     "http://terminology.hl7.org/CodeSystem/condition-clinical",
+     :zen.fhir/content :bundled}},
+  :uri "http://terminology.hl7.org/ValueSet/condition-clinical",
+  :version "0.5.0"}}

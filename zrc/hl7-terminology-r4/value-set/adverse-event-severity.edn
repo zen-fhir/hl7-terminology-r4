@@ -1,0 +1,13 @@
+{ns hl7-terminology-r4.value-set.adverse-event-severity,
+ import #{zen.fhir},
+ value-set
+ {:zen/tags #{zen.fhir/value-set},
+  :zen/desc
+  "The severity of the adverse event itself, in direct relation to the subject.",
+  :zen.fhir/version "0.5.22-1",
+  :fhir/code-systems
+  #{{:fhir/url
+     "http://terminology.hl7.org/CodeSystem/adverse-event-severity",
+     :zen.fhir/content :bundled}},
+  :uri "http://terminology.hl7.org/ValueSet/adverse-event-severity",
+  :version "0.1.0"}}

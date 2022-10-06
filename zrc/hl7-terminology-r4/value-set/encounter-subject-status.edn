@@ -1,0 +1,13 @@
+{ns hl7-terminology-r4.value-set.encounter-subject-status,
+ import #{zen.fhir},
+ value-set
+ {:zen/tags #{zen.fhir/value-set},
+  :zen/desc
+  "This example value set defines a set of codes that can be used to indicate the status of the subject within the encounter",
+  :zen.fhir/version "0.5.22-1",
+  :fhir/code-systems
+  #{{:fhir/url
+     "http://terminology.hl7.org/CodeSystem/encounter-subject-status",
+     :zen.fhir/content :bundled}},
+  :uri "http://terminology.hl7.org/ValueSet/encounter-subject-status",
+  :version "0.1.0"}}

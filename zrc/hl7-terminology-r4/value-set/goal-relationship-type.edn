@@ -1,0 +1,12 @@
+{ns hl7-terminology-r4.value-set.goal-relationship-type,
+ import #{zen.fhir},
+ value-set
+ {:zen/tags #{zen.fhir/value-set},
+  :zen/desc "Types of relationships between two goals.",
+  :zen.fhir/version "0.5.22-1",
+  :fhir/code-systems
+  #{{:fhir/url
+     "http://terminology.hl7.org/CodeSystem/goal-relationship-type",
+     :zen.fhir/content :bundled}},
+  :uri "http://terminology.hl7.org/ValueSet/goal-relationship-type",
+  :version "0.3.0"}}

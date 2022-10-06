@@ -1,0 +1,12 @@
+{ns hl7-terminology-r4.value-set.adjudication,
+ import #{zen.fhir},
+ value-set
+ {:zen/tags #{zen.fhir/value-set},
+  :zen/desc
+  "This value set includes a smattering of Adjudication Value codes which includes codes to indicate the amounts eligible under the plan, the amount of benefit, copays etc.",
+  :zen.fhir/version "0.5.22-1",
+  :fhir/code-systems
+  #{{:fhir/url "http://terminology.hl7.org/CodeSystem/adjudication",
+     :zen.fhir/content :bundled}},
+  :uri "http://terminology.hl7.org/ValueSet/adjudication",
+  :version "0.3.0"}}

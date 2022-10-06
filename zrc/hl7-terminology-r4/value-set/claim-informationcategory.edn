@@ -1,0 +1,13 @@
+{ns hl7-terminology-r4.value-set.claim-informationcategory,
+ import #{zen.fhir},
+ value-set
+ {:zen/tags #{zen.fhir/value-set},
+  :zen/desc
+  "This value set includes sample Information Category codes.",
+  :zen.fhir/version "0.5.22-1",
+  :fhir/code-systems
+  #{{:fhir/url
+     "http://terminology.hl7.org/CodeSystem/claiminformationcategory",
+     :zen.fhir/content :bundled}},
+  :uri "http://terminology.hl7.org/ValueSet/claim-informationcategory",
+  :version "0.2.0"}}

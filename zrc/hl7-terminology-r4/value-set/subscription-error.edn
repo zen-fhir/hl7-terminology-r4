@@ -1,0 +1,12 @@
+{ns hl7-terminology-r4.value-set.subscription-error,
+ import #{zen.fhir},
+ value-set
+ {:zen/tags #{zen.fhir/value-set},
+  :zen/desc "Codes to represent subscription error details",
+  :zen.fhir/version "0.5.22-1",
+  :fhir/code-systems
+  #{{:fhir/url
+     "http://terminology.hl7.org/CodeSystem/subscription-error",
+     :zen.fhir/content :bundled}},
+  :uri "http://terminology.hl7.org/ValueSet/subscription-error",
+  :version "0.1.0"}}

@@ -1,0 +1,13 @@
+{ns hl7-terminology-r4.value-set.attribute-estimate-type,
+ import #{zen.fhir},
+ value-set
+ {:zen/tags #{zen.fhir/value-set},
+  :zen/desc
+  "Method of reporting variability of estimates, such as confidence intervals, interquartile range or standard deviation.",
+  :zen.fhir/version "0.5.22-1",
+  :fhir/code-systems
+  #{{:fhir/url
+     "http://terminology.hl7.org/CodeSystem/attribute-estimate-type",
+     :zen.fhir/content :bundled}},
+  :uri "http://terminology.hl7.org/ValueSet/attribute-estimate-type",
+  :version "0.1.0"}}

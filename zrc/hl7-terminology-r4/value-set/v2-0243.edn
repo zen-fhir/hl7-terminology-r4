@@ -1,0 +1,12 @@
+{ns hl7-terminology-r4.value-set.v2-0243,
+ import #{zen.fhir},
+ value-set
+ {:zen/tags #{zen.fhir/value-set},
+  :zen/desc
+  "Value Set of codes that define whether the primary observer has given permission for their identification information to be provided to a product manufacturer.",
+  :zen.fhir/version "0.5.22-1",
+  :fhir/code-systems
+  #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v2-0243",
+     :zen.fhir/content :bundled}},
+  :uri "http://terminology.hl7.org/ValueSet/v2-0243",
+  :version "2.0.0"}}
