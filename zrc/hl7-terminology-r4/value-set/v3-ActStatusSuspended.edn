@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "An Act that has been activated (actions could or have been performed against it), but has been temporarily disabled. No further action should be taken against it until it is released",
-  :zen.fhir/version "0.5.22-1",
+  :zen.fhir/version "0.5.23",
   :fhir/code-systems
   #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-ActStatus",
      :zen.fhir/content :bundled}},
