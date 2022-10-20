@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "Concepts which are used to determine the function of the order segment.  Depending on the message, the action specifies by one of these control codes may refer to an order or an individual service.",
-  :zen.fhir/version "0.5.24",
+  :zen.fhir/version "0.5.24-1",
   :fhir/code-systems
   #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v2-0119",
      :zen.fhir/content :bundled}},

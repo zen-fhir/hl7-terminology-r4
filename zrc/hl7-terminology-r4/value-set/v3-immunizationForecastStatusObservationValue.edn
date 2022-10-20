@@ -5,7 +5,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "Represents the patient's status with respect to their immunization guideline as of an evaluation date.",
-  :zen.fhir/version "0.5.24",
+  :zen.fhir/version "0.5.24-1",
   :fhir/code-systems
   #{{:fhir/url "http://snomed.info/sct", :zen.fhir/content :bundled}},
   :uri

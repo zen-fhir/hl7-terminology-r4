@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "Value Set of codes specifying  the units of transport temperature.",
-  :zen.fhir/version "0.5.24",
+  :zen.fhir/version "0.5.24-1",
   :fhir/code-systems
   #{{:fhir/url "http://unitsofmeasure.org",
      :zen.fhir/content :bundled}},

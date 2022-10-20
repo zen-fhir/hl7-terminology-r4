@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "Codes for use in the ext-mif-relationship-symmetry to capture V3 Model Interchange Format (MIF) SupportedConceptRelationship.symmetry values",
-  :zen.fhir/version "0.5.24",
+  :zen.fhir/version "0.5.24-1",
   :fhir/code-systems
   #{{:fhir/url
      "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
