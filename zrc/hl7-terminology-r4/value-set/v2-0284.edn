@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "Value Set of codes that describe the patient care setting where a referral should take place.",
-  :zen.fhir/version "0.5.23",
+  :zen.fhir/version "0.5.24",
   :fhir/code-systems
   #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v2-0284",
      :zen.fhir/content :bundled}},

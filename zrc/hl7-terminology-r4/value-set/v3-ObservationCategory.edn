@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "High level observation categories for the general type of observation being made.\r\n\r\n*Steward:* OO WG",
-  :zen.fhir/version "0.5.23",
+  :zen.fhir/version "0.5.24",
   :fhir/code-systems
   #{{:fhir/url
      "http://terminology.hl7.org/CodeSystem/v3-ObservationCategory",

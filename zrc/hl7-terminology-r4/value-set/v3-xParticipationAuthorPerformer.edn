@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "One who initiates the control act event, either as its author or its physical performer.",
-  :zen.fhir/version "0.5.23",
+  :zen.fhir/version "0.5.24",
   :fhir/code-systems
   #{{:fhir/url
      "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
