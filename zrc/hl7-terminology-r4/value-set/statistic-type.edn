@@ -3,7 +3,7 @@
  value-set
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc "The type of a specific statistic.",
-  :zen.fhir/version "0.5.24-1",
+  :zen.fhir/version "0.5.25-1",
   :fhir/code-systems
   #{{:fhir/url "http://terminology.hl7.org/CodeSystem/statistic-type",
      :zen.fhir/content :bundled}},
