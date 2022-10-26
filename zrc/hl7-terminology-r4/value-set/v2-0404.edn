@@ -4,9 +4,16 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "Value Set of codes which specify the level of knowledge a person possesses with respect to a language ability identified.",
-  :zen.fhir/version "0.5.25-1",
+  :zen.fhir/version "0.5.26",
   :fhir/code-systems
   #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v2-0404",
      :zen.fhir/content :bundled}},
   :uri "http://terminology.hl7.org/ValueSet/v2-0404",
-  :version "2.0.0"}}
+  :version "2.0.0",
+  :ftr
+  {:module "ig",
+   :source-url "node_modules/hl7.terminology.r4",
+   :source-type :ig,
+   :ftr-path "ftr",
+   :zen/package-name "hl7-terminology-r4",
+   :tag "init"}}}

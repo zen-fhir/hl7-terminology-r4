@@ -4,10 +4,17 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "A code specifying whether and how the participant has attested his participation through a signature and or whether such a signature is needed.\r\n\r\n*Examples:* A surgical Procedure act object (representing a procedure report) requires a signature of the performing and responsible surgeon, and possibly other participants. (See also: Participation.signatureText.)",
-  :zen.fhir/version "0.5.25-1",
+  :zen.fhir/version "0.5.26",
   :fhir/code-systems
   #{{:fhir/url
      "http://terminology.hl7.org/CodeSystem/v3-ParticipationSignature",
      :zen.fhir/content :bundled}},
   :uri "http://terminology.hl7.org/ValueSet/v3-ParticipationSignature",
-  :version "2.0.0"}}
+  :version "2.0.0",
+  :ftr
+  {:module "ig",
+   :source-url "node_modules/hl7.terminology.r4",
+   :source-type :ig,
+   :ftr-path "ftr",
+   :zen/package-name "hl7-terminology-r4",
+   :tag "init"}}}

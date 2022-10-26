@@ -4,9 +4,16 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "Value Set of codes that specify types of observations to enable systems to distinguish between observations sent along with an order, versus observations sent as the result to an order.",
-  :zen.fhir/version "0.5.25-1",
+  :zen.fhir/version "0.5.26",
   :fhir/code-systems
   #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v2-0936",
      :zen.fhir/content :bundled}},
   :uri "http://terminology.hl7.org/ValueSet/v2-0936",
-  :version "2.0.0"}}
+  :version "2.0.0",
+  :ftr
+  {:module "ig",
+   :source-url "node_modules/hl7.terminology.r4",
+   :source-type :ig,
+   :ftr-path "ftr",
+   :zen/package-name "hl7-terminology-r4",
+   :tag "init"}}}

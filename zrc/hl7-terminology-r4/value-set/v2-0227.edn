@@ -4,9 +4,16 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "Value Set of codes that specify the organization that manufactures a vaccine. The values are maintained by the US Centers of Disease Control.  Note that the source of truth for these code values are maintained by the CDC, and the code system may be acce",
-  :zen.fhir/version "0.5.25-1",
+  :zen.fhir/version "0.5.26",
   :fhir/code-systems
   #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v2-0227",
      :zen.fhir/content :not-present}},
   :uri "http://terminology.hl7.org/ValueSet/v2-0227",
-  :version "2.0.0"}}
+  :version "2.0.0",
+  :ftr
+  {:module "ig",
+   :source-url "node_modules/hl7.terminology.r4",
+   :source-type :ig,
+   :ftr-path "ftr",
+   :zen/package-name "hl7-terminology-r4",
+   :tag "init"}}}

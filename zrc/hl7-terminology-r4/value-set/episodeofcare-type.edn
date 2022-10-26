@@ -4,10 +4,17 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "This example value set defines a set of codes that can be used to express the usage type of an EpisodeOfCare record.",
-  :zen.fhir/version "0.5.25-1",
+  :zen.fhir/version "0.5.26",
   :fhir/code-systems
   #{{:fhir/url
      "http://terminology.hl7.org/CodeSystem/episodeofcare-type",
      :zen.fhir/content :bundled}},
   :uri "http://terminology.hl7.org/ValueSet/episodeofcare-type",
-  :version "0.2.0"}}
+  :version "0.2.0",
+  :ftr
+  {:module "ig",
+   :source-url "node_modules/hl7.terminology.r4",
+   :source-type :ig,
+   :ftr-path "ftr",
+   :zen/package-name "hl7-terminology-r4",
+   :tag "init"}}}

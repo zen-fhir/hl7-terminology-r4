@@ -4,9 +4,16 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "Value Set of codes which specify sources for speciments for clinical testing.  These concepts are used in HL7 Version 2.x messaging in the OBR segment prior to version 2.7, and was replaced by the concepts in table 0487 Specimen Type and table",
-  :zen.fhir/version "0.5.25-1",
+  :zen.fhir/version "0.5.26",
   :fhir/code-systems
   #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v2-0070",
      :zen.fhir/content :bundled}},
   :uri "http://terminology.hl7.org/ValueSet/v2-0070",
-  :version "2.0.0"}}
+  :version "2.0.0",
+  :ftr
+  {:module "ig",
+   :source-url "node_modules/hl7.terminology.r4",
+   :source-type :ig,
+   :ftr-path "ftr",
+   :zen/package-name "hl7-terminology-r4",
+   :tag "init"}}}
