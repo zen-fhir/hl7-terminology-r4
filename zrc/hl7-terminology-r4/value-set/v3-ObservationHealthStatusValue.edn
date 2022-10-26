@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "Code specifying non-clinical indicators related to health status used to assess or establish eligibility for coverage under a policy or program, e.g., pregnancy, disability, drug use, mental health issues.",
-  :zen.fhir/version "0.5.26",
+  :zen.fhir/version "0.5.26-1",
   :fhir/code-systems
   #{{:fhir/url
      "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",

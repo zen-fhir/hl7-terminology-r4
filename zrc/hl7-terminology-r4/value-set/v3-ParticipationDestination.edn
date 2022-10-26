@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "The destination for services. May be a static building (or room therein) or a movable facility (e.g., ship).",
-  :zen.fhir/version "0.5.26",
+  :zen.fhir/version "0.5.26-1",
   :fhir/code-systems
   #{{:fhir/url
      "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",

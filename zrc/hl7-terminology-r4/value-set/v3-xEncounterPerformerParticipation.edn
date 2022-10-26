@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "Used to enumerate the ways in which a clinician can directly participate during an encounter which generates a clinical document.",
-  :zen.fhir/version "0.5.26",
+  :zen.fhir/version "0.5.26-1",
   :fhir/code-systems
   #{{:fhir/url
      "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",

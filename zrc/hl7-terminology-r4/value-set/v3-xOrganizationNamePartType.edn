@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "A name for an organization, such as \"Health Level Seven, Inc.\" An organization name consists only of untyped name parts, prefixes, suffixes, and delimiters.",
-  :zen.fhir/version "0.5.26",
+  :zen.fhir/version "0.5.26-1",
   :fhir/code-systems
   #{{:fhir/url
      "http://terminology.hl7.org/CodeSystem/v3-EntityNamePartType",

@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "Used to capture the link between a potential service (\"master\" or plan) and an actual service, where the actual service instantiates the potential service. The instantiation may override the master's defaults.",
-  :zen.fhir/version "0.5.26",
+  :zen.fhir/version "0.5.26-1",
   :fhir/code-systems
   #{{:fhir/url
      "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
