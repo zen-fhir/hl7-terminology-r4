@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "Some services take place at multiple concurrent locations (e.g., telemedicine, telephone consultation). The location where the principal performing actor is located is taken as the primary location (LOC) while the other location(s) are considered \"remote.\"",
-  :zen.fhir/version "0.5.26-1",
+  :zen.fhir/version "0.5.26-2",
   :fhir/code-systems
   #{{:fhir/url
      "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",

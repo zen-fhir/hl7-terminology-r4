@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "The role played by a party who has legal responsibility for another party.",
-  :zen.fhir/version "0.5.26-1",
+  :zen.fhir/version "0.5.26-2",
   :fhir/code-systems
   #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-RoleCode",
      :zen.fhir/content :bundled}},
