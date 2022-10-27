@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "Interpretations of change of quantity and/or severity, such as \"better\", \"worse\", \"increased\", etc. At most one of B or W and one of U or D allowed.",
-  :zen.fhir/version "0.5.26-4",
+  :zen.fhir/version "0.5.26-5",
   :fhir/code-systems
   #{{:fhir/url
      "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",

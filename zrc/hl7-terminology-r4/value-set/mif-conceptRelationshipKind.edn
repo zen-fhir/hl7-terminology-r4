@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "Codes for use in the ext-mif-relationship-relationshipKind to capture V3 Model Interchange Format (MIF) SupportedConceptRelationship.relationshipKind values",
-  :zen.fhir/version "0.5.26-4",
+  :zen.fhir/version "0.5.26-5",
   :fhir/code-systems
   #{{:fhir/url
      "http://terminology.hl7.org/CodeSystem/hl7TermMaintInfra",
