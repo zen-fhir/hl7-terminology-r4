@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "Wait for any one of the branches in the set of exclusive wait branches to terminate, then discontinue all the other exclusive wait branches.",
-  :zen.fhir/version "0.5.26-2",
+  :zen.fhir/version "0.5.26-3",
   :fhir/code-systems
   #{{:fhir/url
      "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipJoin",

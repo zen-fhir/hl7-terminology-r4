@@ -3,7 +3,7 @@
  value-set
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc "A container of other entities.",
-  :zen.fhir/version "0.5.26-2",
+  :zen.fhir/version "0.5.26-3",
   :fhir/code-systems
   #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-EntityClass",
      :zen.fhir/content :bundled}},
