@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "A type of document section within a health quality measure (aka eMeasure), used to cluster the various parts of the eMeasure into a more human navigable format.",
-  :zen.fhir/version "0.5.26-3",
+  :zen.fhir/version "0.5.26-4",
   :fhir/code-systems
   #{{:fhir/url "http://loinc.org", :zen.fhir/content :bundled}},
   :uri

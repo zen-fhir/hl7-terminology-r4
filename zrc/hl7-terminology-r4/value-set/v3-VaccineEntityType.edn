@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "A Type of medicine that creates an immune protection without the recipient experiencing the disease.",
-  :zen.fhir/version "0.5.26-3",
+  :zen.fhir/version "0.5.26-4",
   :fhir/code-systems
   #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-EntityCode",
      :zen.fhir/content :bundled}},

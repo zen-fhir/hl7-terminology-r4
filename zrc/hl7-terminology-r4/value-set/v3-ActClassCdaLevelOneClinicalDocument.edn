@@ -5,7 +5,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "A clinical document that conforms to Level One of the HL7 Clinical Document Architecture (CDA)",
-  :zen.fhir/version "0.5.26-3",
+  :zen.fhir/version "0.5.26-4",
   :fhir/code-systems
   #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-ActClass",
      :zen.fhir/content :bundled}},

@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "Value Set of codes that are used for base64 MIME encoding.  Base64 is defined as follows (adapted from MIME Internet standard RFC 1521).",
-  :zen.fhir/version "0.5.26-3",
+  :zen.fhir/version "0.5.26-4",
   :fhir/code-systems
   #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v2-0290",
      :zen.fhir/content :bundled}},

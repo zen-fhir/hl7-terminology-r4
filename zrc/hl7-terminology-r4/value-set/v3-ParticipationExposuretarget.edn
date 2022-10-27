@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "**Description:** The entity playing the associated role is the target (contact) of exposure.",
-  :zen.fhir/version "0.5.26-3",
+  :zen.fhir/version "0.5.26-4",
   :fhir/code-systems
   #{{:fhir/url
      "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",
