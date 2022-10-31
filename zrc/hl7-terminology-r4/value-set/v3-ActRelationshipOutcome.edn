@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "An observation that should follow or does actually follow as a result or consequence of a condition or action (sometimes called \"post-condition\".) Target must be an observation as a goal, risk or any criterion. For complex outcomes a conjunction attribute",
-  :zen.fhir/version "0.5.27-1",
+  :zen.fhir/version "0.5.28",
   :fhir/code-systems
   #{{:fhir/url
      "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
