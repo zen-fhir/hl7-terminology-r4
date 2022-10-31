@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "Used when the target Act is a transformation of the source Act. (For instance, used to show that a CDA document is a transformation of a DICOM SR document.)",
-  :zen.fhir/version "0.5.26-5",
+  :zen.fhir/version "0.5.27",
   :fhir/code-systems
   #{{:fhir/url
      "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
@@ -17,5 +17,4 @@
    :source-url "node_modules/hl7.terminology.r4",
    :source-type :ig,
    :ftr-path "ftr",
-   :zen/package-name "hl7-terminology-r4",
    :tag "init"}}}

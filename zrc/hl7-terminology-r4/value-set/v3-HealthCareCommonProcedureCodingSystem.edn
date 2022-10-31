@@ -4,7 +4,7 @@
  value-set
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc "This value set includes all HCPCS Level II codes.",
-  :zen.fhir/version "0.5.26-5",
+  :zen.fhir/version "0.5.27",
   :fhir/code-systems
   #{{:fhir/url
      "https://www.cms.gov/Medicare/Coding/HCPCSReleaseCodeSets",
@@ -17,5 +17,4 @@
    :source-url "node_modules/hl7.terminology.r4",
    :source-type :ig,
    :ftr-path "ftr",
-   :zen/package-name "hl7-terminology-r4",
    :tag "init"}}}

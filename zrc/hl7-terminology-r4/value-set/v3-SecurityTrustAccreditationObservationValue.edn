@@ -5,7 +5,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "Values for security metadata observation made about the formal declaration by an authority or neutral third party that validates the technical, security, trust, and business practice conformance of Trust Agents to facilitate security, interoperability, and trust among participants within a security domain or trust framework.",
-  :zen.fhir/version "0.5.26-5",
+  :zen.fhir/version "0.5.27",
   :fhir/code-systems
   #{{:fhir/url
      "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",
@@ -18,5 +18,4 @@
    :source-url "node_modules/hl7.terminology.r4",
    :source-type :ig,
    :ftr-path "ftr",
-   :zen/package-name "hl7-terminology-r4",
    :tag "init"}}}

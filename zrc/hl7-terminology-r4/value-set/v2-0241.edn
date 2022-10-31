@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "Value Set of codes that describe the overall state of a patient as a result of patient care.",
-  :zen.fhir/version "0.5.26-5",
+  :zen.fhir/version "0.5.27",
   :fhir/code-systems
   #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v2-0241",
      :zen.fhir/content :bundled}},
@@ -15,5 +15,4 @@
    :source-url "node_modules/hl7.terminology.r4",
    :source-type :ig,
    :ftr-path "ftr",
-   :zen/package-name "hl7-terminology-r4",
    :tag "init"}}}

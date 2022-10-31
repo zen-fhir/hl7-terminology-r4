@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "Specifies the state change of a target Act using DocuymentCompletion codes, from its previous state as a predecessor Act.\r\n\r\nFor example, if the target Act is the result of a predecessor Act being \"obsoleted\" and replaced with the target Act, the source ProvenanceEventCurrentState Act code would be \"obsoleted\".",
-  :zen.fhir/version "0.5.26-5",
+  :zen.fhir/version "0.5.27",
   :fhir/code-systems
   #{{:fhir/url
      "http://terminology.hl7.org/CodeSystem/v3-DocumentCompletion",
@@ -17,5 +17,4 @@
    :source-url "node_modules/hl7.terminology.r4",
    :source-type :ig,
    :ftr-path "ftr",
-   :zen/package-name "hl7-terminology-r4",
    :tag "init"}}}

@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "Value Set of codes that specify the administered vaccines.   The values are maintained by the US Centers of Disease Control..  The code system is maintained by the CDC, and may be found at URL;  https://phinvads.cdc.gov/vads/ViewCodeSystem.action?id=2.1",
-  :zen.fhir/version "0.5.26-5",
+  :zen.fhir/version "0.5.27",
   :fhir/code-systems
   #{{:fhir/url "http://hl7.org/fhir/sid/cvx",
      :zen.fhir/content :not-present}},
@@ -15,5 +15,4 @@
    :source-url "node_modules/hl7.terminology.r4",
    :source-type :ig,
    :ftr-path "ftr",
-   :zen/package-name "hl7-terminology-r4",
    :tag "init"}}}
