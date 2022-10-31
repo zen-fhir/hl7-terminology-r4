@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "An individual who is licensed to prepare and sell or dispense drugs and compounds and to make up prescriptions.",
-  :zen.fhir/version "0.5.27",
+  :zen.fhir/version "0.5.27-1",
   :fhir/code-systems
   #{{:fhir/url "http://nucc.org/provider-taxonomy",
      :zen.fhir/content :not-present}},

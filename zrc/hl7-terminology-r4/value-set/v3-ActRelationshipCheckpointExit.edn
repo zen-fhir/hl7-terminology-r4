@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "Condition is a loop checkpoint, i.e. it is a step of an activity plan and, if negative causes the containing loop to exit.",
-  :zen.fhir/version "0.5.27",
+  :zen.fhir/version "0.5.27-1",
   :fhir/code-systems
   #{{:fhir/url
      "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipCheckpoint",
