@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "Proposed therapy may be inappropriate or contraindicated due to an existing/recent patient condition or diagnosis",
-  :zen.fhir/version "0.5.28-1",
+  :zen.fhir/version "0.5.30",
   :fhir/code-systems
   #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-ActCode",
      :zen.fhir/content :bundled}},

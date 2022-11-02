@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "A semisolid preparation intended for external application to the skin or mucous membranes.",
-  :zen.fhir/version "0.5.28-1",
+  :zen.fhir/version "0.5.30",
   :fhir/code-systems
   #{{:fhir/url
      "http://terminology.hl7.org/CodeSystem/v3-orderableDrugForm",
