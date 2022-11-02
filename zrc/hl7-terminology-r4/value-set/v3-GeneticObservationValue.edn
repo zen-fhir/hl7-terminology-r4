@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "**Description:** The domain contains genetic analysis specific observation values, e.g. Homozygote, Heterozygote, etc.",
-  :zen.fhir/version "0.5.30",
+  :zen.fhir/version "0.5.30-1",
   :fhir/code-systems
   #{{:fhir/url
      "http://terminology.hl7.org/CodeSystem/v3-ObservationValue",

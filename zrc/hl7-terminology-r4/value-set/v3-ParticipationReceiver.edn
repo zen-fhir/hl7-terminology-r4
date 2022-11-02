@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "The person (or organization) who receives the product of an Act.",
-  :zen.fhir/version "0.5.30",
+  :zen.fhir/version "0.5.30-1",
   :fhir/code-systems
   #{{:fhir/url
      "http://terminology.hl7.org/CodeSystem/v3-ParticipationType",

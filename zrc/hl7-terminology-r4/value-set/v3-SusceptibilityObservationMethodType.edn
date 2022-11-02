@@ -5,7 +5,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "**Description:**Test methods designed to determine a microorganismâ€™s susceptibility to an antibiotic.",
-  :zen.fhir/version "0.5.30",
+  :zen.fhir/version "0.5.30-1",
   :fhir/code-systems
   #{{:fhir/url
      "http://terminology.hl7.org/CodeSystem/v3-ObservationMethod",
