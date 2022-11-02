@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "The reasons that may be used when relating a Quality Measure Document to other document types.",
-  :zen.fhir/version "0.5.28",
+  :zen.fhir/version "0.5.28-1",
   :fhir/code-systems
   #{{:fhir/url
      "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
