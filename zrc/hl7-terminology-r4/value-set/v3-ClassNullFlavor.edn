@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "**Description:** Subset of null flavors, used for associations as needed for the ITS, and used in InfrastructureRoot.",
-  :zen.fhir/version "0.5.31",
+  :zen.fhir/version "0.5.31-1",
   :fhir/code-systems
   #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-NullFlavor",
      :zen.fhir/content :bundled}},
