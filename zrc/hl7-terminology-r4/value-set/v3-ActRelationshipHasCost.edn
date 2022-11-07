@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "A relationship that provides an ability to associate a financial transaction (target) as a cost to a clinical act (source). A clinical act may have an inherit cost associated with the execution or delivery of the service.\r\n\r\nThe financial transaction will define the cost of delivery or performance of the service.\r\n\r\nCharges and costs are distinct terms. A charge defines what is charged or billed to another organization or entity within an organization. The cost defines what it costs an organization to perform or deliver a service or product.",
-  :zen.fhir/version "0.5.30-1",
+  :zen.fhir/version "0.5.31",
   :fhir/code-systems
   #{{:fhir/url
      "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
@@ -13,7 +13,7 @@
   :version "2.0.0",
   :ftr
   {:module "ig",
-   :source-url "node_modules/hl7.terminology.r4",
-   :source-type :ig,
+   :source-urls ["node_modules/hl7.terminology.r4"],
+   :source-type :igs,
    :ftr-path "ftr",
    :tag "init"}}}

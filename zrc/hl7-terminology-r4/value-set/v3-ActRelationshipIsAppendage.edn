@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "An addendum (source) to an existing service object (target), containing supplemental information. The addendum is itself an original service object linked to the supplemented service object. The supplemented service object remains in place and its content and status are unaltered.",
-  :zen.fhir/version "0.5.30-1",
+  :zen.fhir/version "0.5.31",
   :fhir/code-systems
   #{{:fhir/url
      "http://terminology.hl7.org/CodeSystem/v3-ActRelationshipType",
@@ -14,7 +14,7 @@
   :version "2.0.0",
   :ftr
   {:module "ig",
-   :source-url "node_modules/hl7.terminology.r4",
-   :source-type :ig,
+   :source-urls ["node_modules/hl7.terminology.r4"],
+   :source-type :igs,
    :ftr-path "ftr",
    :tag "init"}}}

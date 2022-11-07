@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "An observable finding or state that persists over time and tends to require intervention or management, and, therefore, distinguished from an Observation made at a point in time; may exist before an Observation of the Condition is made or after interventions to manage the Condition are undertaken. Examples: equipment repair status, device recall status, a health risk, a financial risk, public health risk, pregnancy, health maintenance, chronic illness",
-  :zen.fhir/version "0.5.30-1",
+  :zen.fhir/version "0.5.31",
   :fhir/code-systems
   #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-ActClass",
      :zen.fhir/content :bundled}},
@@ -12,7 +12,7 @@
   :version "2.0.0",
   :ftr
   {:module "ig",
-   :source-url "node_modules/hl7.terminology.r4",
-   :source-type :ig,
+   :source-urls ["node_modules/hl7.terminology.r4"],
+   :source-type :igs,
    :ftr-path "ftr",
    :tag "init"}}}

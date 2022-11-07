@@ -5,7 +5,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "Type of security metadata observation made about the provenance integrity of an IT resource (data, information object, service, or system capability), which indicates the lifecycle completeness or workflow status of an IT resource, such as its creation, modification, suspension, and deletion; locations in which the resource has been collected or archived, from which it may be retrieved, and the history of its distribution and disclosure. Integrity provenance metadata about an IT resource may be used to assess its veracity, reliability, and trustworthiness.",
-  :zen.fhir/version "0.5.30-1",
+  :zen.fhir/version "0.5.31",
   :fhir/code-systems
   #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-ActCode",
      :zen.fhir/content :bundled}},
@@ -14,7 +14,7 @@
   :version "2.0.0",
   :ftr
   {:module "ig",
-   :source-url "node_modules/hl7.terminology.r4",
-   :source-type :ig,
+   :source-urls ["node_modules/hl7.terminology.r4"],
+   :source-type :igs,
    :ftr-path "ftr",
    :tag "init"}}}

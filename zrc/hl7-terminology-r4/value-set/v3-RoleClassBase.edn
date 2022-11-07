@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "A base ingredient (player) is what comprises the major part of a mixture (scoper). E.g., Water in most i.v. solutions, or Vaseline in salves. Among all ingredients of a material, there should be only one base. A base substance can, in turn, be a mixture.",
-  :zen.fhir/version "0.5.30-1",
+  :zen.fhir/version "0.5.31",
   :fhir/code-systems
   #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
      :zen.fhir/content :bundled}},
@@ -12,7 +12,7 @@
   :version "2.0.0",
   :ftr
   {:module "ig",
-   :source-url "node_modules/hl7.terminology.r4",
-   :source-type :ig,
+   :source-urls ["node_modules/hl7.terminology.r4"],
+   :source-type :igs,
    :ftr-path "ftr",
    :tag "init"}}}

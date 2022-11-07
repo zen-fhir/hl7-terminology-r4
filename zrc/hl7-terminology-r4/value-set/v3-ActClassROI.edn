@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "Regions of Interest (ROI) within a subject Act. Primarily used for making secondary observations on a subset of a subject observation. The relationship between a ROI and its referenced Act is specified through an ActRelationship of type \"subject\" (SUBJ), which must always be present.",
-  :zen.fhir/version "0.5.30-1",
+  :zen.fhir/version "0.5.31",
   :fhir/code-systems
   #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-ActClass",
      :zen.fhir/content :bundled}},
@@ -12,7 +12,7 @@
   :version "2.0.0",
   :ftr
   {:module "ig",
-   :source-url "node_modules/hl7.terminology.r4",
-   :source-type :ig,
+   :source-urls ["node_modules/hl7.terminology.r4"],
+   :source-type :igs,
    :ftr-path "ftr",
    :tag "init"}}}

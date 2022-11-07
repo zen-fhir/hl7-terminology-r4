@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "Transportation is the moving of a payload (people or material) from a location of origin to a destination location. Thus, any transport service has the three target instances of type payload, origin, and destination, besides the targets that are generally used for any service (i.e., performer, device, etc.)",
-  :zen.fhir/version "0.5.30-1",
+  :zen.fhir/version "0.5.31",
   :fhir/code-systems
   #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-ActClass",
      :zen.fhir/content :bundled}},
@@ -12,7 +12,7 @@
   :version "2.0.0",
   :ftr
   {:module "ig",
-   :source-url "node_modules/hl7.terminology.r4",
-   :source-type :ig,
+   :source-urls ["node_modules/hl7.terminology.r4"],
+   :source-type :igs,
    :ftr-path "ftr",
    :tag "init"}}}
