@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "A non-mandated intent to perform an act. Used to record intents that are explicitly not Orders. Professional responsibility for the 'proposal' may or may not be present.",
-  :zen.fhir/version "0.5.31-1",
+  :zen.fhir/version "0.5.32-2",
   :fhir/code-systems
   #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-ActMood",
      :zen.fhir/content :bundled}},

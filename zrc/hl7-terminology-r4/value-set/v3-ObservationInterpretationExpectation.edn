@@ -5,7 +5,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "Observation interpretation codes for expected results based on additional information (contraindicators) about the patient's situation.",
-  :zen.fhir/version "0.5.31-1",
+  :zen.fhir/version "0.5.32-2",
   :fhir/code-systems
   #{{:fhir/url
      "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
