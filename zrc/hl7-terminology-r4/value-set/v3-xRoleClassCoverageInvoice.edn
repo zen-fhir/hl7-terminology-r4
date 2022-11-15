@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "An abstract domain that encompasses the roles involved in submitting, responding to and managing invoices or claims for health care coverage.",
-  :zen.fhir/version "0.5.32-2",
+  :zen.fhir/version "0.5.33",
   :fhir/code-systems
   #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
      :zen.fhir/content :bundled}},

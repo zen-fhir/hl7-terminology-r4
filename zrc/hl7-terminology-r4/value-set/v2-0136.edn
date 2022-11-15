@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "Codes specifying either Yes or No used in fields containing binary answers generally user-specified.",
-  :zen.fhir/version "0.5.32-2",
+  :zen.fhir/version "0.5.33",
   :fhir/code-systems
   #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v2-0532",
      :zen.fhir/content :bundled}},
