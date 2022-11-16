@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "An observation on a specimen in a laboratory environment that may affect processing, analysis or result interpretation",
-  :zen.fhir/version "0.5.33",
+  :zen.fhir/version "0.5.33-1",
   :fhir/code-systems
   #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-ActClass",
      :zen.fhir/content :bundled}},

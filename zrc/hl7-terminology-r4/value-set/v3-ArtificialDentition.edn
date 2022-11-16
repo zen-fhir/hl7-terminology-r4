@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "Artificial dentition, artificial subsitutes for the natural dentition",
-  :zen.fhir/version "0.5.33",
+  :zen.fhir/version "0.5.33-1",
   :fhir/code-systems
   #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-Dentition",
      :zen.fhir/content :bundled}},

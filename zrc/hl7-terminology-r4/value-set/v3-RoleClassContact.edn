@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "A person or an organization (player) which provides or receives information regarding another entity (scoper). Examples; patient NOK and emergency contacts; guarantor contact; employer contact.",
-  :zen.fhir/version "0.5.33",
+  :zen.fhir/version "0.5.33-1",
   :fhir/code-systems
   #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-RoleClass",
      :zen.fhir/content :bundled}},

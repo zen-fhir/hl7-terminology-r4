@@ -5,7 +5,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "Reaching a decision through the application of an algorithm designed to weigh the different factors involved.",
-  :zen.fhir/version "0.5.33",
+  :zen.fhir/version "0.5.33-1",
   :fhir/code-systems
   #{{:fhir/url
      "http://terminology.hl7.org/CodeSystem/v3-ObservationMethod",
