@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "**Definition:** When identifying the \"request\" that resulted in an encounter, there is a need to distinguish whether the \"request\" was a general referral (CareProvisionRequest) or a more specific ordered or scheduled encounter (PatientEncounter).",
-  :zen.fhir/version "0.5.33-1",
+  :zen.fhir/version "0.6.0",
   :fhir/code-systems
   #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-ActClass",
      :zen.fhir/content :bundled}},

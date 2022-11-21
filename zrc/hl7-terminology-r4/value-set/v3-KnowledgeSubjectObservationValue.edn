@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "Observation values used to indicate a knowledge subject of interest for which knowledge content is requested (e.g., a medication, a laboratory test, a medical condition).",
-  :zen.fhir/version "0.5.33-1",
+  :zen.fhir/version "0.6.0",
   :fhir/code-systems
   #{{:fhir/url "https://www.nlm.nih.gov/mesh",
      :zen.fhir/content :not-present}
