@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "**Description:**Trigger Event ID as published in the standard.",
-  :zen.fhir/version "0.6.1",
+  :zen.fhir/version "0.6.2",
   :fhir/code-systems
   #{{:fhir/url "http://terminology.hl7.org/CodeSystem/triggerEventID",
      :zen.fhir/content :bundled}},
