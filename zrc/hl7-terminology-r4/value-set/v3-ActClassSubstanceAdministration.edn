@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "The act of introducing or otherwise applying a substance to the subject.\r\n\r\n*Discussion:* The effect of the substance is typically established on a biochemical basis, however, that is not a requirement. For example, radiotherapy can largely be described in the same way, especially if it is a systemic therapy such as radio-iodine. This class also includes the application of chemical treatments to an area.\r\n\r\n*Examples:* Chemotherapy protocol; Drug prescription; Vaccination record",
-  :zen.fhir/version "0.6.3",
+  :zen.fhir/version "0.6.4",
   :fhir/code-systems
   #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-ActClass",
      :zen.fhir/content :bundled}},

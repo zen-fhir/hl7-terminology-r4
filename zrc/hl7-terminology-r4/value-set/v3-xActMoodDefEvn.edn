@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "A grouping of Definition, Event. These specific moods are used in control wrapper override acts. The domain is restricted to acts that are possible to occur or have already occurred.",
-  :zen.fhir/version "0.6.3",
+  :zen.fhir/version "0.6.4",
   :fhir/code-systems
   #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-ActMood",
      :zen.fhir/content :bundled}},

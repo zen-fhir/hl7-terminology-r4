@@ -5,7 +5,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "Codes representing adjustments to a Payment Advice such as retroactive, clawback, garnishee, etc.",
-  :zen.fhir/version "0.6.3",
+  :zen.fhir/version "0.6.4",
   :fhir/code-systems
   #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-ActCode",
      :zen.fhir/content :bundled}},
