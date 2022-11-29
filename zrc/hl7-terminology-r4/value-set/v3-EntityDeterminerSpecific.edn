@@ -4,7 +4,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "The specific determiner indicates that the given Entity is taken as one specific thing instance. For example, a human INSTANCE (quantity = 1,) stands for exactly one human being.",
-  :zen.fhir/version "0.6.4",
+  :zen.fhir/version "0.6.5",
   :fhir/code-systems
   #{{:fhir/url
      "http://terminology.hl7.org/CodeSystem/v3-EntityDeterminer",
