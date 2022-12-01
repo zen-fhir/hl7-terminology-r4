@@ -5,7 +5,7 @@
  {:zen/tags #{zen.fhir/value-set},
   :zen/desc
   "**Definition:** Use to convey the reason that a provider may or has accessed personal healthcare information. Typically, this involves overriding the subject's consent directives.",
-  :zen.fhir/version "0.6.5",
+  :zen.fhir/version "0.6.6",
   :fhir/code-systems
   #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-ActReason",
      :zen.fhir/content :bundled}},
