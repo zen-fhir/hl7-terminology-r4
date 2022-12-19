@@ -1,18 +1,14 @@
 {ns hl7-terminology-r4.value-set.v2-0569,
  import #{zen.fhir},
- value-set
- {:zen/tags #{zen.fhir/value-set},
-  :zen/desc
-  "Value Set of codes used to specify the action requested of a party that receives an adjustment.",
-  :zen.fhir/version "0.6.6-7",
-  :fhir/code-systems
-  #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v2-0569",
-     :zen.fhir/content :bundled}},
-  :uri "http://terminology.hl7.org/ValueSet/v2-0569",
-  :version "2.0.0",
-  :ftr
-  {:module "ig",
-   :source-urls ["node_modules/hl7.terminology.r4"],
-   :source-type :igs,
-   :ftr-path "ftr",
-   :tag "init"}}}
+ value-set {:zen/tags #{zen.fhir/value-set},
+            :zen/desc "Value Set of codes used to specify the action requested of a party that receives an adjustment.",
+            :zen.fhir/version "0.6.6-8",
+            :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v2-0569",
+                                  :zen.fhir/content :bundled}},
+            :uri "http://terminology.hl7.org/ValueSet/v2-0569",
+            :version "2.0.0",
+            :ftr {:module "ig",
+                  :source-urls ["node_modules/hl7.terminology.r4"],
+                  :source-type :igs,
+                  :ftr-path "ftr",
+                  :tag "init"}}}

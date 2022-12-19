@@ -1,18 +1,14 @@
 {ns hl7-terminology-r4.value-set.v2-0356,
  import #{zen.fhir},
- value-set
- {:zen/tags #{zen.fhir/value-set},
-  :zen/desc
-  "Concepts that specify the scheme used when any alternative character sets are specified in the second or later iterations of MSH-18 Character Set, and if any special handling scheme is needed.",
-  :zen.fhir/version "0.6.6-7",
-  :fhir/code-systems
-  #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v2-0356",
-     :zen.fhir/content :bundled}},
-  :uri "http://terminology.hl7.org/ValueSet/v2-0356",
-  :version "2.0.0",
-  :ftr
-  {:module "ig",
-   :source-urls ["node_modules/hl7.terminology.r4"],
-   :source-type :igs,
-   :ftr-path "ftr",
-   :tag "init"}}}
+ value-set {:zen/tags #{zen.fhir/value-set},
+            :zen/desc "Concepts that specify the scheme used when any alternative character sets are specified in the second or later iterations of MSH-18 Character Set, and if any special handling scheme is needed.",
+            :zen.fhir/version "0.6.6-8",
+            :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v2-0356",
+                                  :zen.fhir/content :bundled}},
+            :uri "http://terminology.hl7.org/ValueSet/v2-0356",
+            :version "2.0.0",
+            :ftr {:module "ig",
+                  :source-urls ["node_modules/hl7.terminology.r4"],
+                  :source-type :igs,
+                  :ftr-path "ftr",
+                  :tag "init"}}}

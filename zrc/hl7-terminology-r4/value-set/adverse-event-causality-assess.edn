@@ -1,20 +1,14 @@
 {ns hl7-terminology-r4.value-set.adverse-event-causality-assess,
  import #{zen.fhir},
- value-set
- {:zen/tags #{zen.fhir/value-set},
-  :zen/desc
-  "Codes for the assessment of whether the entity caused the event.",
-  :zen.fhir/version "0.6.6-7",
-  :fhir/code-systems
-  #{{:fhir/url
-     "http://terminology.hl7.org/CodeSystem/adverse-event-causality-assess",
-     :zen.fhir/content :bundled}},
-  :uri
-  "http://terminology.hl7.org/ValueSet/adverse-event-causality-assess",
-  :version "0.2.0",
-  :ftr
-  {:module "ig",
-   :source-urls ["node_modules/hl7.terminology.r4"],
-   :source-type :igs,
-   :ftr-path "ftr",
-   :tag "init"}}}
+ value-set {:zen/tags #{zen.fhir/value-set},
+            :zen/desc "Codes for the assessment of whether the entity caused the event.",
+            :zen.fhir/version "0.6.6-8",
+            :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/adverse-event-causality-assess",
+                                  :zen.fhir/content :bundled}},
+            :uri "http://terminology.hl7.org/ValueSet/adverse-event-causality-assess",
+            :version "0.2.0",
+            :ftr {:module "ig",
+                  :source-urls ["node_modules/hl7.terminology.r4"],
+                  :source-type :igs,
+                  :ftr-path "ftr",
+                  :tag "init"}}}

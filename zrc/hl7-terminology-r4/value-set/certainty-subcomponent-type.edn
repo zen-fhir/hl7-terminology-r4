@@ -1,20 +1,14 @@
 {ns hl7-terminology-r4.value-set.certainty-subcomponent-type,
  import #{zen.fhir},
- value-set
- {:zen/tags #{zen.fhir/value-set},
-  :zen/desc
-  "The subcomponent classification of quality of evidence rating systems.",
-  :zen.fhir/version "0.6.6-7",
-  :fhir/code-systems
-  #{{:fhir/url
-     "http://terminology.hl7.org/CodeSystem/certainty-subcomponent-type",
-     :zen.fhir/content :bundled}},
-  :uri
-  "http://terminology.hl7.org/ValueSet/certainty-subcomponent-type",
-  :version "0.1.0",
-  :ftr
-  {:module "ig",
-   :source-urls ["node_modules/hl7.terminology.r4"],
-   :source-type :igs,
-   :ftr-path "ftr",
-   :tag "init"}}}
+ value-set {:zen/tags #{zen.fhir/value-set},
+            :zen/desc "The subcomponent classification of quality of evidence rating systems.",
+            :zen.fhir/version "0.6.6-8",
+            :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/certainty-subcomponent-type",
+                                  :zen.fhir/content :bundled}},
+            :uri "http://terminology.hl7.org/ValueSet/certainty-subcomponent-type",
+            :version "0.1.0",
+            :ftr {:module "ig",
+                  :source-urls ["node_modules/hl7.terminology.r4"],
+                  :source-type :igs,
+                  :ftr-path "ftr",
+                  :tag "init"}}}

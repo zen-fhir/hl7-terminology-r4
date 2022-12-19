@@ -1,19 +1,14 @@
 {ns hl7-terminology-r4.value-set.choice-list-orientation,
  import #{zen.fhir},
- value-set
- {:zen/tags #{zen.fhir/value-set},
-  :zen/desc
-  "Direction in which lists of possible answers should be displayed.",
-  :zen.fhir/version "0.6.6-7",
-  :fhir/code-systems
-  #{{:fhir/url
-     "http://terminology.hl7.org/CodeSystem/choice-list-orientation",
-     :zen.fhir/content :bundled}},
-  :uri "http://terminology.hl7.org/ValueSet/choice-list-orientation",
-  :version "0.3.0",
-  :ftr
-  {:module "ig",
-   :source-urls ["node_modules/hl7.terminology.r4"],
-   :source-type :igs,
-   :ftr-path "ftr",
-   :tag "init"}}}
+ value-set {:zen/tags #{zen.fhir/value-set},
+            :zen/desc "Direction in which lists of possible answers should be displayed.",
+            :zen.fhir/version "0.6.6-8",
+            :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/choice-list-orientation",
+                                  :zen.fhir/content :bundled}},
+            :uri "http://terminology.hl7.org/ValueSet/choice-list-orientation",
+            :version "0.3.0",
+            :ftr {:module "ig",
+                  :source-urls ["node_modules/hl7.terminology.r4"],
+                  :source-type :igs,
+                  :ftr-path "ftr",
+                  :tag "init"}}}

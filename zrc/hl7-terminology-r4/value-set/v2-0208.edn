@@ -1,18 +1,14 @@
 {ns hl7-terminology-r4.value-set.v2-0208,
  import #{zen.fhir},
- value-set
- {:zen/tags #{zen.fhir/value-set},
-  :zen/desc
-  "Concepts defining precise response status concepts in support of HL7 Version 2 query messaging.",
-  :zen.fhir/version "0.6.6-7",
-  :fhir/code-systems
-  #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v2-0208",
-     :zen.fhir/content :bundled}},
-  :uri "http://terminology.hl7.org/ValueSet/v2-0208",
-  :version "2.0.0",
-  :ftr
-  {:module "ig",
-   :source-urls ["node_modules/hl7.terminology.r4"],
-   :source-type :igs,
-   :ftr-path "ftr",
-   :tag "init"}}}
+ value-set {:zen/tags #{zen.fhir/value-set},
+            :zen/desc "Concepts defining precise response status concepts in support of HL7 Version 2 query messaging.",
+            :zen.fhir/version "0.6.6-8",
+            :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v2-0208",
+                                  :zen.fhir/content :bundled}},
+            :uri "http://terminology.hl7.org/ValueSet/v2-0208",
+            :version "2.0.0",
+            :ftr {:module "ig",
+                  :source-urls ["node_modules/hl7.terminology.r4"],
+                  :source-type :igs,
+                  :ftr-path "ftr",
+                  :tag "init"}}}
