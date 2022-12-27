@@ -1,6 +1,6 @@
 {ns hl7-terminology-r4.ext-mif-assocConceptProp,
  import #{zen.fhir hl7-fhir-r4-core.string},
- schema {:zen.fhir/version "0.6.7-3",
+ schema {:zen.fhir/version "0.6.7-4",
          :zen/tags #{zen/schema zen.fhir/structure-schema},
          :zen.fhir/profileUri "http://terminology.hl7.org/StructureDefinition/ext-mif-assocConceptProp",
          :require #{:name :value},
