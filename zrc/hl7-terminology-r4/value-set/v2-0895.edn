@@ -2,15 +2,8 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "Value Set of codes specifying the present on admission indicator for this particular diagnosis.",
-            :zen.fhir/version "0.6.30-7",
+            :zen.fhir/version "0.6.30-10",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v2-0895",
-                                  :zen.fhir/content :bundled}},
+                                  :zen.fhir/content :not-present}},
             :uri "http://terminology.hl7.org/ValueSet/v2-0895",
-            :version "2.0.0",
-            :ftr {:module "hl7-terminology-r4",
-                  :source-url "https://storage.googleapis.com",
-                  :source-type :cloud-storage,
-                  :ftr-path "ftr",
-                  :tag "init",
-                  :validation-index {:type :nippy,
-                                     :file "index.nippy"}}}}
+            :version "2.0.0"}}
