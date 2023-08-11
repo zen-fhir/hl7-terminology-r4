@@ -1,6 +1,6 @@
 {ns hl7-terminology-r4.ext-mif-relationship-reflexivity,
- import #{hl7-fhir-r4-core.code
-          zen.fhir
+ import #{zen.fhir
+          hl7-fhir-r4b-core.code
           hl7-terminology-r4.value-set.mif-conceptRelationshipReflexivity},
  schema {:zen/tags #{zen.fhir/extension
                      zen/schema
@@ -8,7 +8,7 @@
          :zen/desc "Indicates if the association always holds for a concept with itself (refexive), never holds for a concept with itself (irreflexive)",
          :zen.fhir/type "code",
          :zen.fhir/profileUri "http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-reflexivity",
-         :zen.fhir/version "0.6.30-11",
-         :confirms #{hl7-fhir-r4-core.code/schema},
+         :zen.fhir/version "0.6.30-12",
+         :confirms #{hl7-fhir-r4b-core.code/schema},
          :zen.fhir/value-set {:symbol hl7-terminology-r4.value-set.mif-conceptRelationshipReflexivity/value-set,
                               :strength :required}}}
