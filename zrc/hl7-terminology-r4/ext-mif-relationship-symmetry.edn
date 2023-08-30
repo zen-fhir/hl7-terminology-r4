@@ -1,14 +1,14 @@
 {ns hl7-terminology-r4.ext-mif-relationship-symmetry,
- import #{hl7-fhir-r4-core.code
-          zen.fhir
-          hl7-terminology-r4.value-set.mif-conceptRelationshipSymmetry},
+ import #{zen.fhir
+          hl7-terminology-r4.value-set.mif-conceptRelationshipSymmetry
+          hl7-fhir-r4b-core.code},
  schema {:zen/tags #{zen.fhir/extension
                      zen/schema
                      zen.fhir/structure-schema},
          :zen/desc "Indicates if the relationship always holds in the reverse direction as well (symetric), never holds in the reverse direction as well (antisymetric)",
          :zen.fhir/type "code",
          :zen.fhir/profileUri "http://terminology.hl7.org/StructureDefinition/ext-mif-relationship-symmetry",
-         :zen.fhir/version "0.6.30-14",
-         :confirms #{hl7-fhir-r4-core.code/schema},
+         :zen.fhir/version "0.6.31",
+         :confirms #{hl7-fhir-r4b-core.code/schema},
          :zen.fhir/value-set {:symbol hl7-terminology-r4.value-set.mif-conceptRelationshipSymmetry/value-set,
                               :strength :required}}}
