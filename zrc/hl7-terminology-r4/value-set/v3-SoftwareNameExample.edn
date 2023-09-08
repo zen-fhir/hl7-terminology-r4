@@ -2,7 +2,7 @@
  import #{zen.fhir},
  value-set {:zen/tags #{zen.fhir/value-set},
             :zen/desc "An example value set representing the SoftwareName concept domain used to convey a coded name for a device..",
-            :zen.fhir/version "0.6.32",
+            :zen.fhir/version "0.6.30-11",
             :fhir/code-systems #{{:fhir/url "http://terminology.hl7.org/CodeSystem/v3-SoftwareNameExample",
                                   :zen.fhir/content :bundled}},
             :uri "http://terminology.hl7.org/ValueSet/v3-SoftwareNameExample",
